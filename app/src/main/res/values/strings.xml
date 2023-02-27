@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">kinopoisk</string>
+    <string name="film_search_hint">search films by name</string>
+
+    <!--    dialog-->
+    <string name="dialog_error_title">Oops!</string>
+
+    <!--    film details page-->
+    <string name="film_details_year_title">Year</string>
+    <string name="film_details_rating_title">Rating</string>
+    <string name="film_details_type_title">Type</string>
+    <string name="film_details_vote_count_title">Vote count</string>
+</resources>

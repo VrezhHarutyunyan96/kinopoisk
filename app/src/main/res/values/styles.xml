@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dialogTitle">
+        <item name="fontFamily">@font/semi_bold</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:layout_marginTop">@dimen/spacing_16</item>
+        <item name="android:textColor">@color/primaryTitleTextColor</item>
+    </style>
+
+    <style name="dialogMessage">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textColor">@color/dialogTextColor</item>
+        <item name="android:layout_marginBottom">@dimen/dialog_message_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/dialog_message_margin_top</item>
+        <item name="android:layout_marginStart">@dimen/dialog_message_margin_corners</item>
+        <item name="android:layout_marginEnd">@dimen/dialog_message_margin_corners</item>
+    </style>
+
+    <style name="textPrimaryTitle">
+        <item name="fontFamily">@font/semi_bold</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@color/primaryTitleTextColor</item>
+    </style>
+
+    <style name="textPrimaryTitle.14">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="textPrimaryTitle.16">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="textPrimaryTitle.regular">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_24</item>
+        <item name="android:textColor">@color/primaryTitleTextColor</item>
+    </style>
+
+    <style name="textPrimaryTitle.bold">
+        <item name="fontFamily">@font/semi_bold</item>
+        <item name="android:textSize">@dimen/text_28</item>
+        <item name="android:textColor">@color/primaryTitleTextColor</item>
+    </style>
+
+    <style name="textPrimaryTitle.11">
+        <item name="android:textSize">@dimen/text_11</item>
+    </style>
+
+    <style name="textPrimaryTitle.13">
+        <item name="android:textSize">@dimen/text_13</item>
+    </style>
+
+    <style name="textPrimaryTitle.15">
+        <item name="android:textSize">@dimen/text_15</item>
+    </style>
+
+    <style name="textPrimary">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="textPrimary.13">
+        <item name="android:textSize">@dimen/text_13</item>
+    </style>
+
+    <style name="textPrimary.14">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="textPrimary.15">
+        <item name="android:textSize">@dimen/text_15</item>
+    </style>
+
+    <style name="textSecondary">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="textSecondary.11">
+        <item name="android:textSize">@dimen/text_11</item>
+    </style>
+
+    <style name="textSecondary.12">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="textSecondary.14">
+        <item name="android:textSize">@dimen/text_14</item>
+    </style>
+
+    <style name="textSecondary.white_10">
+        <item name="android:textSize">@dimen/text_10</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textPrimary.10">
+        <item name="android:textSize">@dimen/text_11</item>
+    </style>
+
+    <style name="textPrimary.11">
+        <item name="android:textSize">@dimen/text_11</item>
+    </style>
+
+</resources>

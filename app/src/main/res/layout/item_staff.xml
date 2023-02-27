@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="@dimen/measure_144"
+    android:layout_height="@dimen/measure_144"
+    android:layout_marginTop="@dimen/spacing_12"
+    android:layout_marginEnd="@dimen/spacing_12"
+    android:layout_marginBottom="@dimen/spacing_12"
+    android:checkable="true"
+    app:cardCornerRadius="@dimen/story_item_radius"
+    app:checkedIcon="@null"
+    app:strokeColor="@color/white"
+    app:strokeWidth="1dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/staffImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/storyGradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/staff_gradient"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/textPrimary.13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/spacing_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/story_item_text_size" />
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/searchText"
+                style="@style/textPrimary"
+                android:layout_width="match_parent"
+                android:hint="@string/film_search_hint"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_margin="@dimen/spacing_16"
+                android:background="@android:color/transparent"
+                android:singleLine="true"
+                android:textCursorDrawable="@null" />
+
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_3"
+            android:background="?actionBarItemBackground"
+            android:layout_marginEnd="@dimen/spacing_16"
+            app:layout_constraintEnd_toEndOf="@+id/searchText"
+            app:layout_constraintTop_toTopOf="@+id/searchText"
+            app:layout_constraintBottom_toBottomOf="@+id/searchText"
+            app:srcCompat="@drawable/ic_search" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filmRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/spacing_16"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchText" />
+
+
+    <com.example.kinopoisk.presentation.widget.LoadingView
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
